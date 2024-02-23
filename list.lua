@@ -40,7 +40,7 @@ t.case_table = {
     },
 
     [2] = {
-        name = "Sylvanas",
+        name = "Helica",
         category = "harassment",
         url = "https://some_other_url.com/war_of_the_thorns",
     },
