@@ -14,7 +14,7 @@ t.my_provider = "Crusader Strike EU discord"
 
 -- Set this variable to whatever realm your list is for.
 -- e.g. Golemagg, Firemaw, Gehennas etc.
-t.my_realm = "Crusader Strike EU"
+t.my_realm = "Crusader Strike"
 
 -- Set this variable to provide a description of your organisation.
 -- e.g. "Realm discord for the Golemagg EU server."
