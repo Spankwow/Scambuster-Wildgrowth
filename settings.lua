@@ -5,21 +5,21 @@ local _, t = ...
 
 -- Set this to be your list's name. If it doesn't have one, just set it to be the 
 -- same as your provider name.
-t.my_name = "Scambuster Example List"
+t.my_name = "Crusader Strike EU Blacklist"
 
 -- Set this variable to the name of your organisation, usually the name of your
 -- Discord.
 -- e.g. "Golemagg Discord"
-t.my_provider = "Scambusters Anonymous"
+t.my_provider = "Crusader Strike EU discord"
 
 -- Set this variable to whatever realm your list is for.
 -- e.g. Golemagg, Firemaw, Gehennas etc.
-t.my_realm = "Classic PTR Realm 1"
+t.my_realm = "Crusader Strike EU"
 
 -- Set this variable to provide a description of your organisation.
 -- e.g. "Realm discord for the Golemagg EU server."
-t.my_description = "Test list for prospective Scambuster providers."
+t.my_description = "Blacklist curated by the Crusader Strike EU discord."
 
 -- Set this variable to be a url to your discord or website where people
 -- can come and find you.
-t.my_url = "https://some_discord_url.com/whatever"
+t.my_url = "https://discord.gg/dsxYHXFucH"
