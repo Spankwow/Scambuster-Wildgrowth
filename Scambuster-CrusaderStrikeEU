@@ -1,0 +1,12 @@
+## Interface: 20502
+## Title: Scambuster-CrusaderStrikeEU
+## Notes: Crusader Strike EU Provider addon for Scambuster
+## Author: Cei
+## Version: 1.0.0
+## DefaultState: enabled
+## Dependencies: Scambuster
+
+LibStub.lua
+settings.lua
+list.lua
+core.lua
