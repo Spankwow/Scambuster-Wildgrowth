@@ -6,8 +6,8 @@ We use the scambuster addon framework to package our list of known Scammers and 
 
 **Setup with automatic updates:**
 1. Download the **[Wowup Addon Client](https://wowup.io/)** 
-2. Go to the **Get Addons** tab
-3. Click on the **Install from URL** button
+2. Go to the **Get Addons** tab.
+3. Click on the **Install from URL** button.
 4. **Copy & Paste** both addon GitHub URLs:
 ```python
 https://github.com/hypernormalisation/Scambuster
@@ -16,3 +16,7 @@ https://github.com/hypernormalisation/Scambuster
 https://github.com/CeiCode/Scambuster-CrusaderStrikeEU
 ```
 6. Go to the **My Addons** tab and set both to **Auto Update**.
+
+# Commands
+/sb - Opens the Scambuster interface.
+/grabguid - To bring up the Grab GUID frame, use this command. It loads by default, but if you've closed it, use this command to reopen it.
