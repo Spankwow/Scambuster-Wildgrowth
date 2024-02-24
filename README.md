@@ -18,5 +18,6 @@ https://github.com/CeiCode/Scambuster-CrusaderStrikeEU
 6. Go to the **My Addons** tab and set both to **Auto Update**.
 
 # Commands
-/sb - Opens the Scambuster interface.
-/grabguid - To bring up the Grab GUID frame, use this command. It loads by default, but if you've closed it, use this command to reopen it.
+```/sb```  Opens the Scambuster interface.
+
+```/grabguid```  To bring up the Grab GUID frame, use this command. It loads by default, but if you've closed it, use this command to reopen it.
