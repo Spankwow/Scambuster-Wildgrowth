@@ -20,4 +20,4 @@ https://github.com/CeiCode/Scambuster-CrusaderStrikeEU
 # Commands
 ```/sb```  Opens the Scambuster interface.
 
-```/grabguid```  To bring up the Grab GUID frame, use this command. It loads by default, but if you've closed it, use this command to reopen it.
+```/grabguid```  Brings up the Grab GUID frame. It loads by default, but if you've closed it, use this command to reopen it.
