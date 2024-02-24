@@ -10,3 +10,4 @@ LibStub.lua
 settings.lua
 list.lua
 core.lua
+GrabGUID.lua
