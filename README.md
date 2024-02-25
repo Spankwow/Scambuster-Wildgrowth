@@ -1,3 +1,5 @@
+![GitHub Downloads (all assets, all releases)](https://img.shields.io/github/downloads/CeiCode/Scambuster-CrusaderStrikeEU/total?style=for-the-badge)
+
 <div align="left">
 
 # Scambuster - Crusader Strike EU
