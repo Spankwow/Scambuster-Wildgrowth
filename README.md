@@ -2,7 +2,7 @@
 
 # Scambuster - Crusader Strike EU
 
-We use the Scambuster addon framework to package our list of known Scammers and Ninja Looters in the [Crusader Strike EU](https://discord.gg/dsxYHXFucH) community. This addon is meant to be used with the [Scambuster](https://github.com/hypernormalisation/Scambuster) addon framework. If you would like receive in-game alerts when joining a pug follow the steps below.
+We utilize the Scambuster addon framework to compile and distribute our list of identified Scammers and Ninja Looters within the [Crusader Strike EU](https://discord.gg/dsxYHXFucH) community. This addon is specifically designed to work seamlessly with [Scambuster](https://github.com/hypernormalisation/Scambuster) addon framework. If you wish to receive in-game alerts upon joining a PUG, please follow the steps outlined below.
 
 **Setup with automatic updates:**
 1. Download the **[Wowup Addon Client](https://wowup.io/)** 
