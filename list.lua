@@ -2,7 +2,7 @@ local _, t = ...
 
 -- Crusader Strike Discord Blocklist Table
 
--- unique characters: 74
+-- unique characters: 76
 
 t.version = "@project-version@"
 
@@ -535,6 +535,20 @@ t.case_table = {
     guid = "Player-5828-021A8FB1",
     description = "Scamming",
     url = "https://discord.com/channels/1177750568433881138/1201330373695643778",
+},
+
+[75] = {
+    name = "Aenoxx",
+    faction = "Alliance",
+    description = "Scamming",
+    url = "https://discord.com/channels/1177750568433881138/1210568673975341066",
+},
+
+[76] = {
+    name = "Babodin",
+    faction = "Alliance",
+    description = "Scamming",
+    url = "https://discord.com/channels/1177750568433881138/1210754075482783774",
 },
 
 }
