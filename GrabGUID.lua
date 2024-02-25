@@ -34,13 +34,13 @@ frame:SetScript("OnEvent", ShowFrame)
 
 -- Create a text label
 frame.label = frame:CreateFontString(nil, "OVERLAY", "GameFontHighlight")
-frame.label:SetPoint("TOP", frame, "TOP", 0, -5)  -- Centered horizontally and moved up
+frame.label:SetPoint("TOP", frame, "TOP", 0, -5) 
 frame.label:SetText("Target:")
 
 -- Create an edit box for GUID and Name
 frame.infoBox = CreateFrame("EditBox", "GrabGUIDEditBox", frame, "InputBoxTemplate")
-frame.infoBox:SetSize(200, 40)  -- Adjusted width
-frame.infoBox:SetPoint("TOP", frame.label, "BOTTOM", 0, -20)  -- Adjusted spacing
+frame.infoBox:SetSize(200, 40)
+frame.infoBox:SetPoint("TOP", frame.label, "BOTTOM", 0, -20)
 frame.infoBox:SetAutoFocus(false)
 frame.infoBox:SetMultiLine(true)
 frame.infoBox:SetFontObject(GameFontHighlightSmall)
@@ -52,7 +52,7 @@ frame.infoBox:SetScript("OnEscapePressed", function() frame:Hide() end)
 -- Create a button
 frame.button = CreateFrame("Button", "GrabGUIDButton", frame, "UIPanelButtonTemplate")
 frame.button:SetSize(100, 25)
-frame.button:SetPoint("BOTTOM", 0, 20)  -- Centered horizontally and moved down
+frame.button:SetPoint("BOTTOM", 0, 20)
 frame.button:SetText("Grab GUID")
 
 -- Function to grab target's GUID and name
