@@ -551,4 +551,11 @@ t.case_table = {
     url = "https://discord.com/channels/1177750568433881138/1210754075482783774",
 },
 
+[76] = {
+    name = "Balalaika",
+    faction = "Alliance",
+    description = "Scamming",
+    url = "https://discord.com/channels/1177750568433881138/1211649803616780388",
+},
+	
 }
