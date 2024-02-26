@@ -7,12 +7,19 @@ local _, t = ...
 t.version = "@project-version@"
 
 t.case_table = {
-	[1] = {
+[1] = {
     name = "Billypaladin",
     faction = "Horde",
     guid = "Player-5828-01DEC3D9",
     description = "Ninja Looting",
     url = "https://discord.com/channels/1177750568433881138/1205623287460266096",
+},
+
+[2] = {
+    name = "Bilypaladin",
+    faction = "Horde",
+    description = "Ninja Looting",
+    url = "https://discord.com/channels/1177750568433881138/1201504162270162964",
 },
 
 [3] = {
