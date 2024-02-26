@@ -2,7 +2,7 @@ local _, t = ...
 
 -- Crusader Strike Discord Blocklist Table
 
--- unique characters: 76
+-- unique characters: 77
 
 t.version = "@project-version@"
 
@@ -551,7 +551,7 @@ t.case_table = {
     url = "https://discord.com/channels/1177750568433881138/1210754075482783774",
 },
 
-[76] = {
+[77] = {
     name = "Balalaika",
     faction = "Alliance",
     description = "Scamming",
