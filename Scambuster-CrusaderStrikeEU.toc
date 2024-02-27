@@ -2,7 +2,7 @@
 ## Title: Scambuster-CrusaderStrikeEU
 ## Notes: Extension for Scambuster packaging Crusader Strike EU realm data
 ## Author: Cei
-## Version: 1.0.3
+## Version: 1.0.4
 ## DefaultState: enabled
 ## Dependencies: Scambuster
 
@@ -11,3 +11,4 @@ settings.lua
 list.lua
 core.lua
 GrabGUID.lua
+WarningUnknownLinkType.lua
