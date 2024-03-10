@@ -1,73 +1,96 @@
--- Create a frame
-local frame = CreateFrame("Frame", "GrabGUIDFrame", UIParent, "BasicFrameTemplateWithInset")
-frame:SetSize(240, 110)
-frame:SetPoint("CENTER")
-frame:SetMovable(true)
-frame:EnableMouse(true)
-frame:RegisterForDrag("LeftButton")
-frame:SetScript("OnDragStart", frame.StartMoving)
-frame:SetScript("OnDragStop", frame.StopMovingOrSizing)
-frame:SetClampedToScreen(true)
-frame:Hide()
+-- Display system message
+print("|cffffff00[Grab GUID]|r loaded. Use |cff00ff00/gg|r or |cff00ff00/grabguid|r to bring up Grab GUID frame.")
 
--- Function to show or hide the frame
-local function ToggleFrame()
-    if frame:IsShown() then
-        frame:Hide()
-    else
-        frame:Show()
-    end
-end
+-- Create the main frame
+local mainFrame = CreateFrame("Frame", "GrabGUID_MainFrame", UIParent, "BasicFrameTemplate")
+mainFrame:SetSize(240, 100)
+mainFrame:SetPoint("CENTER")
+mainFrame:SetMovable(true)
+mainFrame:EnableMouse(true)
+mainFrame:RegisterForDrag("LeftButton")
+mainFrame:SetScript("OnDragStart", mainFrame.StartMoving)
+mainFrame:SetScript("OnDragStop", mainFrame.StopMovingOrSizing)
+mainFrame:Hide()  -- Hide the main frame by default
 
--- Register slash command
-SLASH_GRABGUID1 = "/grabguid"
-SlashCmdList["GRABGUID"] = ToggleFrame
-
--- Function to show the frame on login
-local function ShowFrame()
-    frame:Show()
-end
-
--- Register an event to show the frame when the player logs in
-frame:RegisterEvent("PLAYER_LOGIN")
-frame:SetScript("OnEvent", ShowFrame)
-
--- Create a text label
-frame.label = frame:CreateFontString(nil, "OVERLAY", "GameFontHighlight")
-frame.label:SetPoint("TOP", frame, "TOP", 0, -5) 
-frame.label:SetText("Target:")
-
--- Create an edit box for GUID and Name
-frame.infoBox = CreateFrame("EditBox", "GrabGUIDEditBox", frame, "InputBoxTemplate")
-frame.infoBox:SetSize(200, 40)
-frame.infoBox:SetPoint("TOP", frame.label, "BOTTOM", 0, -20)
-frame.infoBox:SetAutoFocus(false)
-frame.infoBox:SetMultiLine(true)
-frame.infoBox:SetFontObject(GameFontHighlightSmall)
-frame.infoBox:SetTextInsets(5, 5, 0, 0)
-frame.infoBox:SetCursorPosition(0)
-frame.infoBox:SetMaxLetters(100)
-frame.infoBox:SetScript("OnEscapePressed", function() frame:Hide() end)
-
--- Create a button
-frame.button = CreateFrame("Button", "GrabGUIDButton", frame, "UIPanelButtonTemplate")
-frame.button:SetSize(100, 25)
-frame.button:SetPoint("BOTTOM", 0, 20)
-frame.button:SetText("Grab GUID")
-
--- Function to grab target's GUID and name
-local function GrabTargetInfo()
+-- Function to grab target's GUID or offline player's GUID
+local function GrabGUID()
     local targetGUID = UnitGUID("target")
     local targetName = UnitName("target")
+    local inputName = mainFrame.infoBox:GetText()
+    
     if targetGUID and targetName then
-        frame.infoBox:SetText(targetGUID .. " - " .. targetName)
-        frame:Show()
-        print("Target: " .. targetName .. " (GUID: " .. targetGUID .. ")")
+        print("|cffffff00[Grab GUID]|r Checking for player information...")
+        print("|cffffcc00Player GUID:|r |cff00ff00" .. targetGUID .. " - " .. targetName .. "|r")
+        mainFrame.infoBox:SetText(targetGUID .. " - " .. targetName)
+    elseif inputName ~= "" then
+        local friendInfo = C_FriendList.GetFriendInfo(inputName)
+        if friendInfo then
+            print("|cffffff00[Grab GUID]|r Checking for player information...")
+            print("|cffffcc00Player GUID:|r |cff00ff00" .. friendInfo.guid .. " - " .. inputName .. "|r")
+            mainFrame.infoBox:SetText(friendInfo.guid .. " - " .. inputName)
+        else
+            print("|cffffff00[Grab GUID]|r Checking for player information...")
+            print("|cffffff00[Grab GUID]|r |cffffcc00No player found with the name '" .. inputName .. "'. Adding to friend list to check.")
+            -- Add player to friend list
+            C_FriendList.AddFriend(inputName)
+            
+            -- Retrieve player's GUID after a delay
+            C_Timer.After(2, function()
+                friendInfo = C_FriendList.GetFriendInfo(inputName)
+                if friendInfo then
+                    print("|cffffff00[Grab GUID]|r Checking for player information...")
+                    print("|cffffcc00Player GUID:|r |cff00ff00" .. friendInfo.guid .. " - " .. inputName .. "|r")
+                    mainFrame.infoBox:SetText(friendInfo.guid .. " - " .. inputName)
+                else
+                    print("|cffffff00[Grab GUID]|r |cffff0000No player found with the name '" .. inputName .. "'. Please check the name or try again later.")
+                end
+                
+                -- Remove player from friend list
+                C_FriendList.RemoveFriend(inputName)
+            end)
+        end
     else
-        frame.infoBox:SetText("No target selected.")
-        frame:Show()
-        print("No target selected.")
+        print("|cffffff00[Grab GUID]|r |cffff0000No target or player found, please select your target or input correct name into the box.|r")
     end
 end
 
-frame.button:SetScript("OnClick", GrabTargetInfo)
+-- Create the text label for the main frame
+mainFrame.label = mainFrame:CreateFontString(nil, "OVERLAY", "GameFontHighlight")
+mainFrame.label:SetPoint("TOPLEFT", mainFrame, "TOPLEFT", 17, -5)
+mainFrame.label:SetText("Select target or input player name here:")
+
+-- Create the edit box for the main frame
+mainFrame.infoBox = CreateFrame("EditBox", "GrabGUID_MainEditBox", mainFrame, "InputBoxTemplate")
+mainFrame.infoBox:SetSize(198, 30) 
+mainFrame.infoBox:SetPoint("TOPLEFT", mainFrame.label, "BOTTOMLEFT", 5, -10)
+mainFrame.infoBox:SetAutoFocus(false)
+mainFrame.infoBox:SetFontObject(GameFontHighlightSmall)
+mainFrame.infoBox:SetTextInsets(0, 0, 0, 0)
+mainFrame.infoBox:SetCursorPosition(0)
+mainFrame.infoBox:SetMaxLetters(100)
+
+-- Create the button for grabbing target's GUID or offline player's GUID
+mainFrame.grabButton = CreateFrame("Button", "GrabGUID_Button", mainFrame, "UIPanelButtonTemplate")
+mainFrame.grabButton:SetSize(110, 25) 
+mainFrame.grabButton:SetPoint("BOTTOM", mainFrame, "BOTTOM", 0, 15)
+mainFrame.grabButton:SetText("Grab GUID")
+mainFrame.grabButton:SetScript("OnClick", GrabGUID)
+
+-- Register slash commands
+SLASH_GRABGUID1 = "/grabguid"
+SlashCmdList["GRABGUID"] = function() 
+    if mainFrame:IsShown() then 
+        mainFrame:Hide() 
+    else 
+        mainFrame:Show() 
+    end 
+end
+
+SLASH_GG1 = "/gg"
+SlashCmdList["GG"] = function() 
+    if mainFrame:IsShown() then 
+        mainFrame:Hide() 
+    else 
+        mainFrame:Show() 
+    end 
+end
