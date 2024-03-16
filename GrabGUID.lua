@@ -1,5 +1,12 @@
--- Display system message
-print("|cffffff00[Grab GUID]|r loaded. Use |cff00ff00/gg|r or |cff00ff00/grabguid|r to bring up Grab GUID frame.")
+-- Delayed print function
+local function DelayedPrint(message, delay)
+    C_Timer.After(delay, function()
+        print(message)
+    end)
+end
+
+-- System message with delay
+DelayedPrint("|cffffff00[Grab GUID]|r loaded. Use |cff00ff00/gg|r or |cff00ff00/grabguid|r to bring up Grab GUID frame.", 2)
 
 -- Create the main frame
 local mainFrame = CreateFrame("Frame", "GrabGUID_MainFrame", UIParent, "BasicFrameTemplate")
