@@ -14,6 +14,9 @@ We utilize the Scambuster addon framework to compile and distribute our list of 
 ```python
 https://github.com/hypernormalisation/Scambuster
 ```
+```python
+https://github.com/Spankwow/Scambuster-Wildgrowth
+```
 6. Go to the **My Addons** tab and set both to **Auto Update**.
 
 # Commands
