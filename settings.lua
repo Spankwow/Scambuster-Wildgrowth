@@ -5,7 +5,7 @@ local _, t = ...
 
 -- Set this to be your list's name. If it doesn't have one, just set it to be the 
 -- same as your provider name.
-t.my_name = "Wildgrowth EU Blacklist"
+t.my_name = "Wildgrowth Blacklist"
 
 -- Set this variable to the name of your organisation, usually the name of your
 -- Discord.
