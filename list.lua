@@ -183,4 +183,12 @@ t.case_table = {
         url = "https://discord.com/channels/1170454697002422374/1217423435291168779",
 },
 
+[21] = {
+    name = "Retribuição",
+    faction = "Alliance",
+    guid = "Player-5825-021642BD",
+    description = "Ninja Looting - Raid",
+    url = "https://discord.com/channels/1170454697002422374/1220871351813017690",
+},
+
 }
