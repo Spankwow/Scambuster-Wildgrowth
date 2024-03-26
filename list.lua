@@ -191,4 +191,36 @@ t.case_table = {
     url = "https://discord.com/channels/1170454697002422374/1220871351813017690",
 },
 
+[22] = {
+    name = "Vogeldog",
+    faction = "Alliance",
+    guid = "Player-5825-02695DE7",
+    description = "Ninja Looting - Raid",
+    url = "https://discord.com/channels/1170454697002422374/1221815811048607754",
+},
+
+[23] = {
+    name = "Athin",
+    faction = "Alliance",
+    guid = "Player-5825-025D7222",
+    description = "Ninja Looting - Raid",
+    url = "https://discord.com/channels/1170454697002422374/1221859879908806828",
+},
+
+[24] = {
+    name = "Hympfz",
+    faction = "Alliance",
+    guid = "Player-5825-025C686F",
+    description = "Ninja Looting - Raid",
+    url = "https://discord.com/channels/1170454697002422374/1218336851744657489",
+},
+
+[21] = {
+    name = "Unclelock",
+    faction = "Alliance",
+    guid = "Player-5825-025AF9AF",
+    description = "Ninja Looting - Raid",
+    url = "https://discord.com/channels/1170454697002422374/1218336851744657489",
+},
+
 }
