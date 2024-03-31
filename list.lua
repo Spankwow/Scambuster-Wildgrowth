@@ -2,7 +2,7 @@ local _, t = ...
 
 -- Wildgrowth Discord Blocklist Table
 
--- unique characters: 22
+-- unique characters: 31
 
 t.version = "1.01"
 
@@ -181,46 +181,78 @@ t.case_table = {
         guid = "Player5825-021DC319",
         description = "Ninja Looting - Raid",
         url = "https://discord.com/channels/1170454697002422374/1217423435291168779",
-},
+    },
 
-[21] = {
-    name = "Retribuição",
-    faction = "Alliance",
-    guid = "Player-5825-021642BD",
-    description = "Ninja Looting - Raid",
-    url = "https://discord.com/channels/1170454697002422374/1220871351813017690",
-},
+     [23] = {
+        name = "Retribuição",
+        faction = "Alliance",
+        guid = "Player-5825-021642BD",
+        description = "Ninja Looting - Raid",
+        url = "https://discord.com/channels/1170454697002422374/1220871351813017690",
+    },
 
-[22] = {
-    name = "Vogeldog",
-    faction = "Alliance",
-    guid = "Player-5825-02695DE7",
-    description = "Ninja Looting - Raid",
-    url = "https://discord.com/channels/1170454697002422374/1221815811048607754",
-},
+     [24] = {
+        name = "Vogeldog",
+        faction = "Alliance",
+        guid = "Player-5825-02695DE7",
+        description = "Ninja Looting - Raid",
+        url = "https://discord.com/channels/1170454697002422374/1221815811048607754",
+    },
 
-[23] = {
-    name = "Athin",
-    faction = "Alliance",
-    guid = "Player-5825-025D7222",
-    description = "Ninja Looting - Raid",
-    url = "https://discord.com/channels/1170454697002422374/1221859879908806828",
-},
+     [25] = {
+        name = "Athin",
+        faction = "Alliance",
+        guid = "Player-5825-025D7222",
+        description = "Ninja Looting - Raid",
+        url = "https://discord.com/channels/1170454697002422374/1221859879908806828",
+    },
 
-[24] = {
-    name = "Hympfz",
-    faction = "Alliance",
-    guid = "Player-5825-025C686F",
-    description = "Ninja Looting - Raid",
-    url = "https://discord.com/channels/1170454697002422374/1218336851744657489",
-},
+     [26] = {
+        name = "Hympfz",
+        faction = "Alliance",
+        guid = "Player-5825-025C686F",
+        description = "Ninja Looting - Raid",
+        url = "https://discord.com/channels/1170454697002422374/1218336851744657489",
+    },
 
-[21] = {
-    name = "Unclelock",
-    faction = "Alliance",
-    guid = "Player-5825-025AF9AF",
-    description = "Ninja Looting - Raid",
-    url = "https://discord.com/channels/1170454697002422374/1218336851744657489",
-},
+     [27] = {
+        name = "Unclelock",
+        faction = "Alliance",
+        guid = "Player-5825-025AF9AF",
+        description = "Ninja Looting - Raid",
+        url = "https://discord.com/channels/1170454697002422374/1218336851744657489",
+    },
+
+     [28] = {
+        name = "Picapot",
+        faction = "Alliance",
+        guid = "Player-5825-02391F44",
+        description = "Ninja Looting - Raid",
+        url = "https://discord.com/channels/1170454697002422374/1222582770396565739",
+    },
+
+     [29] = {
+        name = "Randkløveren",
+        faction = "Alliance",
+        guid = "Player-5825-025F276B",
+        description = "Ninja Looting - Raid",
+        url = "https://discord.com/channels/1170454697002422374/1221264969673216083",
+    },
+
+     [30] = {
+        name = "Firephd",
+        faction = "Alliance",
+        guid = "Player-5825-025DB72A",
+        description = "Ninja Looting - Raid",
+        url = "https://discord.com/channels/1170454697002422374/1221264969673216083",
+    },
+
+     [31] = {
+        name = "Ènvý",
+        faction = "Alliance",
+        guid = "Player-5825-023F71E9",
+        description = "Ninja Looting - Raid",
+        url = "https://discord.com/channels/1170454697002422374/1221623306726281348",
+    },
 
 }
