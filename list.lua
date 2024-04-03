@@ -255,4 +255,28 @@ t.case_table = {
         url = "https://discord.com/channels/1170454697002422374/1221623306726281348",
     },
 
+    [31] = {
+        name = "Iskoldkakao",
+        faction = "Horde",
+        guid = "Player-5825-02226143",
+        description = "Ninja Looting - Raid",
+        url = "https://discord.com/channels/1170454697002422374/1222868162736029806",
+    },
+
+    [31] = {
+        name = "Doorc",
+        faction = "Horde",
+        guid = "Player-5825-01FAD56A",
+        description = "Ninja Looting - Raid",
+        url = "https://discord.com/channels/1170454697002422374/1222868162736029806",
+    },
+    
+    [31] = {
+        name = "Iskoldmælk",
+        faction = "Horde",
+        guid = "Player-5825-0220D8B7",
+        description = "Ninja Looting - Raid",
+        url = "https://discord.com/channels/1170454697002422374/1222868162736029806",
+    },
+
 }
