@@ -271,7 +271,7 @@ t.case_table = {
         url = "https://discord.com/channels/1170454697002422374/1222868162736029806",
     },
     
-    [31] = {
+    [32] = {
         name = "Tarmit",
         faction = "Alliance",
         guid = "Player-5825-0205EDB8",
