@@ -2,7 +2,7 @@ local _, t = ...
 
 -- Wildgrowth Discord Blocklist Table
 
--- unique characters: 31
+-- unique characters: 35
 
 t.version = "1.01"
 
@@ -183,7 +183,7 @@ t.case_table = {
         url = "https://discord.com/channels/1170454697002422374/1217423435291168779",
     },
 
-     [23] = {
+    [23] = {
         name = "Retribuição",
         faction = "Alliance",
         guid = "Player-5825-021642BD",
@@ -191,7 +191,7 @@ t.case_table = {
         url = "https://discord.com/channels/1170454697002422374/1220871351813017690",
     },
 
-     [24] = {
+    [24] = {
         name = "Vogeldog",
         faction = "Alliance",
         guid = "Player-5825-02695DE7",
@@ -199,7 +199,7 @@ t.case_table = {
         url = "https://discord.com/channels/1170454697002422374/1221815811048607754",
     },
 
-     [25] = {
+    [25] = {
         name = "Athin",
         faction = "Alliance",
         guid = "Player-5825-025D7222",
@@ -207,7 +207,7 @@ t.case_table = {
         url = "https://discord.com/channels/1170454697002422374/1221859879908806828",
     },
 
-     [26] = {
+    [26] = {
         name = "Hympfz",
         faction = "Alliance",
         guid = "Player-5825-025C686F",
@@ -215,7 +215,7 @@ t.case_table = {
         url = "https://discord.com/channels/1170454697002422374/1218336851744657489",
     },
 
-     [27] = {
+    [27] = {
         name = "Unclelock",
         faction = "Alliance",
         guid = "Player-5825-025AF9AF",
@@ -223,7 +223,7 @@ t.case_table = {
         url = "https://discord.com/channels/1170454697002422374/1218336851744657489",
     },
 
-     [28] = {
+    [28] = {
         name = "Picapot",
         faction = "Alliance",
         guid = "Player-5825-02391F44",
@@ -231,7 +231,7 @@ t.case_table = {
         url = "https://discord.com/channels/1170454697002422374/1222582770396565739",
     },
 
-     [29] = {
+    [29] = {
         name = "Randkløveren",
         faction = "Alliance",
         guid = "Player-5825-025F276B",
@@ -239,7 +239,7 @@ t.case_table = {
         url = "https://discord.com/channels/1170454697002422374/1221264969673216083",
     },
 
-     [30] = {
+    [30] = {
         name = "Firephd",
         faction = "Alliance",
         guid = "Player-5825-025DB72A",
@@ -247,7 +247,7 @@ t.case_table = {
         url = "https://discord.com/channels/1170454697002422374/1221264969673216083",
     },
 
-     [31] = {
+    [31] = {
         name = "Ènvý",
         faction = "Alliance",
         guid = "Player-5825-023F71E9",
@@ -255,7 +255,7 @@ t.case_table = {
         url = "https://discord.com/channels/1170454697002422374/1221623306726281348",
     },
 
-    [31] = {
+    [32] = {
         name = "Iskoldkakao",
         faction = "Horde",
         guid = "Player-5825-02226143",
@@ -263,7 +263,7 @@ t.case_table = {
         url = "https://discord.com/channels/1170454697002422374/1222868162736029806",
     },
 
-    [31] = {
+    [33] = {
         name = "Doorc",
         faction = "Horde",
         guid = "Player-5825-01FAD56A",
@@ -271,7 +271,7 @@ t.case_table = {
         url = "https://discord.com/channels/1170454697002422374/1222868162736029806",
     },
     
-    [32] = {
+    [34] = {
         name = "Tarmit",
         faction = "Alliance",
         guid = "Player-5825-0205EDB8",
