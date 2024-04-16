@@ -278,4 +278,12 @@ t.case_table = {
         description = "Ninja Looting - Raid Changing Loot Rules",
         url = "https://discord.com/channels/1170454697002422374/1227004221761654886",
     },
+
+    [35] = {
+        name = "Lasdmnflwoe",
+        faction = "Horde",
+        guid = "Player-5825-02381A1D",
+        description = "Ninja Looting - Raid Changing Loot Rules",
+        url = "https://discord.com/channels/1170454697002422374/1227911576854466590",
+    },
 }
