@@ -4,7 +4,7 @@
 
 # Scambuster - Wildgrowth EU
 
-We utilize the Scambuster addon framework to compile and distribute our list of identified Scammers and Ninja Looters within the [Wildgrowth EU](https://discord.gg/A63kMKaCk6) community. This addon is specifically designed to work seamlessly with [Scambuster](https://github.com/hypernormalisation/Scambuster) addon framework. If you wish to receive in-game alerts upon joining a PUG, please follow the steps outlined below.
+We utilize the Scambuster addon framework to compile and distribute our list of identified Scammers and Ninja Looters within the [Wildgrowth EU](https://discord.gg/WildGrowthEU) community. This addon is specifically designed to work seamlessly with [Scambuster](https://github.com/hypernormalisation/Scambuster) addon framework. If you wish to receive in-game alerts upon joining a PUG, please follow the steps outlined below.
 
 **Setup with automatic updates:**
 1. Download the **[Wowup Addon Client](https://wowup.io/)** 
