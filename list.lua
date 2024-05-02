@@ -286,4 +286,20 @@ t.case_table = {
         description = "Ninja Looting - Raid Changing Loot Rules",
         url = "https://discord.com/channels/1170454697002422374/1227911576854466590",
     },
+
+    [36] = {
+        name = "Shamanrage",
+        faction = "Horde",
+        guid = "Player-5825-025E8217",
+        description = "Ninja Looting - Raid Looting Items To An Alt",
+        url = "https://discord.com/channels/1170454697002422374/1234506987857776761",
+    },
+
+    [37] = {
+        name = "Thehunteari",
+        faction = "Horde",
+        guid = "Player-5825-0227AA0C",
+        description = "Ninja Looting - Raid Looting Items To An Alt",
+        url = "https://discord.com/channels/1170454697002422374/1234506987857776761",
+    },
 }
