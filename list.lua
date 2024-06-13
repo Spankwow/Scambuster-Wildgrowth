@@ -318,4 +318,20 @@ t.case_table = {
         description = "Ninja Looting - Raid Looting Items To A Friend",
         url = "https://discord.com/channels/1170454697002422374/1239684845672595699",
     },
+
+    [40] = {
+        name = "Sandiska",
+        faction = "Alliance",
+        guid = "Player-5825-021D8CD5",
+        description = "Ninja Looting - Raid Looting Items",
+        url = "https://discord.com/channels/1170454697002422374/1249274026254401588",
+    },
+
+    [41] = {
+        name = "Syä",
+        faction = "Horde",
+        guid = "Player-5825-01FB8C45",
+        description = "Ninja Looting - Raid Looting Items",
+        url = "https://discord.com/channels/1170454697002422374/1245480895994007686",
+    },
 }
