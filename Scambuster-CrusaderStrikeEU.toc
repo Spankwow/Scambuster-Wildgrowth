@@ -1,8 +1,8 @@
-## Interface: 11501
+## Interface: 11503
 ## Title: Scambuster-CrusaderStrikeEU
 ## Notes: Extension for Scambuster packaging Crusader Strike EU realm data
 ## Author: Cei
-## Version: 1.0.20
+## Version: 1.0.21
 ## DefaultState: enabled
 ## Dependencies: Scambuster
 
