@@ -342,4 +342,12 @@ t.case_table = {
         description = "Ninja Looting - Raid Looting Items",
         url = "https://discord.com/channels/1170454697002422374/1259972581558059060",
     },
+
+    [43] = {
+        name = "Lolcats",
+        faction = "Horde",
+        guid = "Player-5825-028ED651"
+        description = "Social Misconduct - Been Abusive Within Raids",
+        url = "https://discord.com/channels/1170454697002422374/1265317437495316492"   
+    },
 }
