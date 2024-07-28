@@ -2,7 +2,7 @@ local _, t = ...
 
 -- Wildgrowth Discord Blocklist Table
 
--- unique characters: 42
+-- unique characters: 43
 
 t.version = "1.01"
 
