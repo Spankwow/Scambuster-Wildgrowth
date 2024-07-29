@@ -346,8 +346,8 @@ t.case_table = {
     [43] = {
         name = "Lolcats",
         faction = "Horde",
-        guid = "Player-5825-028ED651"
+        guid = "Player-5825-028ED651",
         description = "Social Misconduct - Been Abusive Within Raids IRL Threats",
-        url = "https://discord.com/channels/1170454697002422374/1265317437495316492"   
+        url = "https://discord.com/channels/1170454697002422374/1265317437495316492",
     },
 }
