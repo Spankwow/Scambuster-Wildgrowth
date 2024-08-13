@@ -2,7 +2,7 @@ local _, t = ...
 
 -- Wildgrowth Discord Blocklist Table
 
--- unique characters: 43
+-- unique characters: 47
 
 t.version = "1.01"
 
@@ -349,5 +349,37 @@ t.case_table = {
         guid = "Player-5825-028ED651",
         description = "Social Misconduct - Been Abusive Within Raids IRL Threats",
         url = "https://discord.com/channels/1170454697002422374/1265317437495316492",
+    },
+
+    [44] = {
+        name = "Pietikraulig",
+        faction = "Alliance",
+        guid = "Player-5825-01FCF660",
+        description = "Ninja Looting - Boe`s That Were Not Hard Reserved",
+        url = "https://discord.com/channels/1170454697002422374/1270414993224892436",
+    },
+
+    [45] = {
+        name = "Fildo",
+        faction = "Horde",
+        guid = "Player-5825-0227E995",
+        description = "Ninja Looting - Equipped Item When Wrongfully Awarded",
+        url = "https://discord.com/channels/1170454697002422374/1271223710388584491",
+    },
+
+    [46] = {
+        name = "Nordel",
+        faction = "Horde",
+        guid = "Player-5825-01FE9E6D",
+        description = "Ninja Looting - Master Looting Item To Wrong Winner (Wouldn`t Resolve)",
+        url = "https://discord.com/channels/1170454697002422374/1265317437495316492",
+    },
+
+    [47] = {
+        name = "Snía",
+        faction = "Aliance",
+        guid = " Player-5825-022DB7FC",
+        description = "Ninja Looting - Looting Sulfuron Ignots And Then Trying To Sell",
+        url = "https://discord.com/channels/1170454697002422374/1270479266450243676",
     },
 }
