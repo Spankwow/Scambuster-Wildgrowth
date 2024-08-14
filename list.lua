@@ -378,8 +378,24 @@ t.case_table = {
     [47] = {
         name = "Snía",
         faction = "Aliance",
-        guid = " Player-5825-022DB7FC",
+        guid = "Player-5825-022DB7FC",
         description = "Ninja Looting - Looting Sulfuron Ignots And Then Trying To Sell",
         url = "https://discord.com/channels/1170454697002422374/1270479266450243676",
+    },
+
+    [48] = {
+        name = "Pkz",
+        faction = "Horde",
+        guid = "Player-5825-028A877D",
+        description = "Ninja Looting - Looting Deathbringer And Logging Out",
+        url = "https://discord.com/channels/1170454697002422374/1271836186339577898",
+    },
+
+    [49] = {
+        name = "Pikz",
+        faction = "Horde",
+        guid = "Player-5825-028B5E37",
+        description = "Ninja Looting - Looting Deathbringer And Logging Out (alt of Pkz)",
+        url = "https://discord.com/channels/1170454697002422374/1271836186339577898",
     },
 }
