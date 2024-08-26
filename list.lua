@@ -398,4 +398,44 @@ t.case_table = {
         description = "Ninja Looting - Looting Deathbringer And Logging Out (alt of Pkz)",
         url = "https://discord.com/channels/1170454697002422374/1271836186339577898",
     },
+
+    [50] = {
+        name = "Bukkebryder",
+        faction = "Alliance",
+        guid = "Player-5825-029497A6",
+        description = "Social Misconduct - Racist Comments In DMs Please Read Discord Link <Classic UI>",
+        url = "https://discord.com/channels/1170454697002422374/1277616492866703482",
+    },
+
+    [51] = {
+        name = "Helluvaheals",
+        faction = "Alliance",
+        guid = "Player-5825-028F84EA",
+        description = "Social Misconduct - GM Of <Classic UI> Would Not Condem The Actions Of Members",
+        url = "https://discord.com/channels/1170454697002422374/1277616492866703482",
+    },
+
+    [52] = {
+        name = "Lucasx",
+        faction = "Aliance",
+        guid = "Player-5825-0293788C",
+        description = "Social Misconduct - Part Of Classic UI Read Thread!! ",
+        url = "https://discord.com/channels/1170454697002422374/1277616492866703482",
+    },
+
+    [53] = {
+        name = "Hypersense",
+        faction = "Alliance",
+        guid = "Player-5825-02934217",
+        description = "Social Misconduct - Constent Abuse Of Fellow Member Nature Of List In The Link",
+        url = "https://discord.com/channels/1170454697002422374/1277616492866703482",
+    },
+
+    [54] = {
+        name = "Clipeum",
+        faction = "Alliance",
+        guid = "Player-5825-0241AD0F",
+        description = "Social Misconduct - Part Of Classic UI Read Thread!!",
+        url = "https://discord.com/channels/1170454697002422374/1277616492866703482",
+    },
 }
