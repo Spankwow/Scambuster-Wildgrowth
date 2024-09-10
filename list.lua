@@ -2,7 +2,7 @@ local _, t = ...
 
 -- Wildgrowth Discord Blocklist Table
 
--- unique characters: 54
+-- unique characters: 56
 
 t.version = "1.01"
 
@@ -437,5 +437,21 @@ t.case_table = {
         guid = "Player-5825-0241AD0F",
         description = "Social Misconduct - Part Of Classic UI Read Thread!!",
         url = "https://discord.com/channels/1170454697002422374/1277616492866703482",
+    },
+ 
+    [55] = {
+        name = "Sniktitt",
+        faction = "Alliance",
+        guid = "Player-5825-02403E",
+        description = "Ninja Looting - Ninja Looting To A Friend",
+        url = "https://discord.com/channels/1170454697002422374/1281382516900757558",
+    },
+
+    [56] = {
+        name = "Chattes",
+        faction = "Alliance",
+        guid = "Player-5825-028FBEA3",
+        description = "Ninja Looting - Ninja Looting To A Friend",
+        url = "https://discord.com/channels/1170454697002422374/1281382516900757558",
     },
 }
