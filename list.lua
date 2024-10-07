@@ -2,7 +2,7 @@ local _, t = ...
 
 -- Wildgrowth Discord Blocklist Table
 
--- unique characters: 56
+-- unique characters: 57
 
 t.version = "1.01"
 
@@ -453,5 +453,13 @@ t.case_table = {
         guid = "Player-5825-028FBEA3",
         description = "Ninja Looting - Ninja Looting To A Friend",
         url = "https://discord.com/channels/1170454697002422374/1281382516900757558",
+    },
+
+    [57] = {
+        name = "Sintalas",
+        faction = "Alliance",
+        guid = "Player-5825-0214F704",
+        description = "Ninja Looting - Ninja Looting",
+        url = "https://discord.com/channels/1170454697002422374/1290085321236811798",
     },
 }
