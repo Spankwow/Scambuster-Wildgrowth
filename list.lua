@@ -2,7 +2,7 @@ local _, t = ...
 
 -- Wildgrowth Discord Blocklist Table
 
--- unique characters: 57
+-- unique characters: 62
 
 t.version = "1.01"
 
@@ -461,5 +461,45 @@ t.case_table = {
         guid = "Player-5825-0214F704",
         description = "Ninja Looting - Ninja Looting",
         url = "https://discord.com/channels/1170454697002422374/1290085321236811798",
+    },
+
+    [58] = {
+        name = "Anram",
+        faction = "Alliance",
+        guid = " Player-5825-028E624F",
+        description = "Ninja Looting - Ninja Looting",
+        url = "https://discord.com/channels/1170454697002422374/1282118162644602961",
+    },
+
+    [59] = {
+        name = "Padena",
+        faction = "Alliance",
+        guid = "Player-5825-027A75A5",
+        description = "Ninja Looting - Ninja Looting",
+        url = "https://discord.com/channels/1170454697002422374/1282118162644602961",
+    },
+
+    [60] = {
+        name = "Ophélya",
+        faction = "Alliance",
+        guid = "Player-5825-0280BCCD",
+        description = "Ninja Looting - Ninja Looting",
+        url = "https://discord.com/channels/1170454697002422374/1295475802082902156",
+    },
+
+    [61] = {
+        name = "Senith",
+        faction = "Alliance",
+        guid = "Player-5825-02920AD9",
+        description = "Ninja Looting - Ninja Looting",
+        url = "https://discord.com/channels/1170454697002422374/1295019230671929394",
+    },
+
+    [62] = {
+        name = "Mîsaro",
+        faction = "Alliance",
+        guid = "Player-5825-025E617A",
+        description = "Ninja Looting - Ninja Looting",
+        url = "https://discord.com/channels/1170454697002422374/1297342835070337034",
     },
 }
