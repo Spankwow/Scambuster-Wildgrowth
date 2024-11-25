@@ -502,4 +502,5 @@ t.case_table = {
         description = "Ninja Looting - Ninja Looting",
         url = "https://discord.com/channels/1170454697002422374/1297342835070337034",
     },
+    
 }
